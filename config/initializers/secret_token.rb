@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-VoterAppApi::Application.config.secret_token = '29ff6f0d446415eec18a3a9029a166f19e9a3d0ad8db2fdf5b2b6eefd8ee0d52034a48273c70b1a94eb4af6686548231295a67f43197fec8101cd4e53aa58607'
+VoterAppApi::Application.config.secret_token = '6eea8bbe14ba78a72aedcf3ef7d353bc52d68b1cf8e9fb349895219157cc1fd065de5a205da3551fec721f7af48d313f06aec9b5c08405e187ac469ccbd4ca07'
