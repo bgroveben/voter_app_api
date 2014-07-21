@@ -1,7 +1,15 @@
 VoterAppApi::Application.routes.draw do
- 
+  #Api definition
+  namespace :api, defaults: { format: :json },
+                              constraints: { subdomain: 'api' }, path: '/' do 
+    # List resources here
+  end 
 end
+
+
+
 ### Original file below ###
+
 # Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
